@@ -3,19 +3,20 @@
   src: url("/fonts/TANTWINKLE.woff2") format("woff2");
 }
 
+/* Standard-Schrift für ganze Seite */
 body {
     margin: 0;
-    padding: 0;
+    padding: 40px;
     background-color: #1e2c2d;
     color: #ffffff;
     line-height: 1.6;
-    font-family: "TanTwinkle", sans-serif;
+    font-family: "Fira Code", monospace;
 }
 
+/* Nur Überschriften */
 h1 {
-    font-family: "TanTwinkle", sans-serif;
+    font-family: "TanTwinkle", serif;
 }
-
 .subtitle {
     font-family: "Fira Code", monospace;
 }
