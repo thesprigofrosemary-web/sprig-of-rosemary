@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Tan Winkle";
+    font-family: "Tan Twinkle";
     src: url("/fonts/TANTWINKLE.woff2") format("woff2");
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-family: "Tan Winkle", serif;
+    font-family: "Tan Twinkle", serif;
 }
 
 .subtitle {
