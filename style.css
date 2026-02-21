@@ -19,8 +19,8 @@ h1 {
 }
 .subtitle {
     font-family: "Fira Code", monospace;
-    margin: 5px 0;
-
+    margin: 0;
+    line-height: 1.2;
 }
 
 footer {
