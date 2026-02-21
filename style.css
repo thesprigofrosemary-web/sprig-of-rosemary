@@ -19,3 +19,19 @@ h1 {
 .subtitle {
     font-family: "Fira Code", monospace;
 }
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
