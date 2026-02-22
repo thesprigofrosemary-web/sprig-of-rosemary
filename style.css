@@ -41,14 +41,12 @@ footer {
 
 .footer-links a {
     display: inline-block;
-    margin-right: 15px;
     position: relative;
 }
 
-/* Fügt Strich nach jedem Link ein */
+/* Abstand VOR und NACH dem Strich gleich */
 .footer-links a:not(:last-child)::after {
-    content: "|";
-    margin-left: 15px;
+    content: " | ";
 }
 footer a {
   color: #ffffff;
