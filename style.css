@@ -50,3 +50,21 @@ footer a:hover {
     justify-content: center;
     align-items: center;
 }
+
+/* Links modernisieren */
+a {
+    color: #ffffff;          /* gleiche Farbe wie Text */
+    text-decoration: none;   /* keine Unterstreichung */
+}
+
+a:visited {
+    color: #ffffff;          /* bleibt gleich, kein Lila */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffffff;
+}
