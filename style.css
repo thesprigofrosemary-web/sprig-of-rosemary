@@ -88,7 +88,15 @@ body.home footer {
     display: block;
     text-align: center;
 }
+/* Datenschutz – kompaktere Abstände */
+body.datenschutz h2 {
+    margin-bottom: 8px;   /* Abstand zum Text darunter */
+}
 
+body.datenschutz p {
+    margin-top: 6px;      /* Abstand nach Überschrift */
+    margin-bottom: 12px;  /* Abstand zum nächsten Absatz */
+}
 
 body.datenschutz h2 {
     font-size: 17px;
