@@ -27,16 +27,18 @@ h1 {
 .subtitle + .subtitle {
     margin-top: -6px;
 }
-footer {
-  text-align: center;
-  padding: 40px 0;
-  font-size: 14px;
-}
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 14px;
+}
 footer a {
   color: #ffffff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: left 10px;
 }
 
 footer a:hover {
