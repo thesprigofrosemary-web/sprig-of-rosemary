@@ -6,6 +6,7 @@
 /* Standard-Schrift für ganze Seite */
 body {
     margin: 0;
+    padding: 0 40px;   /* ← DAS ist neu */
     background-color: #1e2c2d;
     color: #ffffff;
     line-height: 1.6;
@@ -38,7 +39,7 @@ footer {
 footer a {
   color: #ffffff;
   text-decoration: none;
-  margin: left 10px;
+  margin: left 25px;
 }
 
 footer a:hover {
