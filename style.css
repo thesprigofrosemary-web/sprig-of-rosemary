@@ -70,3 +70,8 @@ a:hover {
 a:active {
     color: #ffffff;
 }
+/* Footer auf Startseite zentrieren */
+body.home footer {
+    display: block;
+    text-align: center;
+}
