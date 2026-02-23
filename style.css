@@ -102,3 +102,11 @@ body.datenschutz h2 {
     font-size: 17px;
     margin-top: 30px;
 }
+/* Schmalere Textbreite für Impressum & Datenschutz */
+
+body.datenschutz main,
+body.impressum main {
+    max-width: 680px;      /* angenehm lesbare Breite */
+    margin: 0 auto;        /* zentriert */
+    padding: 0 20px;       /* Abstand links/rechts */
+}
