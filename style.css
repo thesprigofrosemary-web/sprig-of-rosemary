@@ -110,3 +110,9 @@ body.impressum main {
     margin: 0 auto;        /* zentriert */
     padding: 0 20px;       /* Abstand links/rechts */
 }
+/* Text in Impressum & Datenschutz linksbündig erzwingen */
+
+body.datenschutz main,
+body.impressum main {
+    text-align: left;
+}
