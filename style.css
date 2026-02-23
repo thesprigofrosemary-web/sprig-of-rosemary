@@ -135,3 +135,23 @@ body.impressum ul,
 body.impressum li {
     text-align: left;
 }
+/* Datenschutz & Impressum sauber linksbündig */
+
+body.datenschutz main,
+body.impressum main {
+    text-align: left;
+    align-items: flex-start;
+}
+
+body.datenschutz h1,
+body.datenschutz h2,
+body.datenschutz p,
+body.datenschutz ul,
+body.datenschutz li,
+body.impressum h1,
+body.impressum h2,
+body.impressum p,
+body.impressum ul,
+body.impressum li {
+    text-align: left;
+}
