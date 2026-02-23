@@ -106,9 +106,10 @@ body.datenschutz h2 {
 
 body.datenschutz main,
 body.impressum main {
-    max-width: 680px;      /* angenehm lesbare Breite */
-    margin: 0 auto;        /* zentriert */
-    padding: 0 20px;       /* Abstand links/rechts */
+    max-width: 680px;
+    margin: 40px 0;      /* NICHT auto */
+    padding: 0;
+
 }
 /* Text in Impressum & Datenschutz linksbündig erzwingen */
 
