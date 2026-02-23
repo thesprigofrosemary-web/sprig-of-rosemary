@@ -114,5 +114,5 @@ body.impressum main {
 
 body.datenschutz main,
 body.impressum main {
-    text-align: left;
+   text-align: left !important;
 }
