@@ -156,3 +156,16 @@ body.impressum ul,
 body.impressum li {
     text-align: left;
 }
+/* Abstand unter H1 auf Datenschutz verkleinern */
+
+body.datenschutz header h1 {
+    margin-bottom: 10px;
+}
+
+body.datenschutz header {
+    margin-bottom: 0;
+}
+
+body.datenschutz main {
+    margin-top: 0;
+}
